@@ -3,7 +3,7 @@ FROM kyyex/kyy-userbot:buster
 #━━━━━ Userbot Telegram ━━━━━
 #━━━━━ By Kyy-Userbot ━━━━━
 
-RUN git clone -b Venz-Userbot https://github.com/eldy020502/Venz-Userbot /root/userbot
+RUN git clone -b Venz-Userbot https://github.com/kenaja/Venz-Userbot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
